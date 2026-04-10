@@ -1,3 +1,15 @@
+# Adversarial LLM Security Assessment
+
+![LLM Security](https://img.shields.io/badge/LLM-Security-red)
+![Garak](https://img.shields.io/badge/Garak-v0.14-blue)
+![OWASP](https://img.shields.io/badge/OWASP-LLM%20Top%2010-orange)
+![Environment](https://img.shields.io/badge/Environment-Local%20Isolated-green)
+
+> ⚠️ Disclaimer: This assessment was conducted in a controlled, isolated local 
+> environment for research purposes only. No production systems were targeted 
+> except for the live chatbot fingerprinting exercise, which was limited to 
+> passive response pattern analysis with no exploitation or data access.
+
 ## Overview
 A hands-on adversarial security assessment of a local multi-model AI environment 
 built using Ollama, evaluating five open-source LLMs — Mistral, Qwen, Gemma, 
@@ -19,11 +31,22 @@ Top 10 for LLM Applications.
   Garak .jsonl vulnerability reports into structured Excel spreadsheets
 
 ## OWASP LLM Mapping
-Findings were mapped to real-world attack scenarios including data leakage, 
-output manipulation, and guardrail bypass.
+Findings were mapped to real-world attack scenarios including:
+
+| OWASP LLM Risk | Finding |
+|---|---|
+| LLM01 - Prompt Injection | Long prompt injection, kill-command hijacking |
+| LLM02 - Insecure Output Handling | Output manipulation via hate-based hijacking |
+| LLM06 - Sensitive Information Disclosure | Data leakage through guardrail bypass |
 
 ## Tools Used
-Garak v0.14, Ollama, LLMap, Python, Excel
+| Tool | Purpose |
+|---|---|
+| Garak v0.14 | Automated prompt injection testing |
+| Ollama | Local LLM hosting and exposure |
+| LLMap | Model fingerprinting via response patterns |
+| Python | Custom tooling and automation |
+| Excel | Structured vulnerability reporting |
 
 ## Screenshots
 
@@ -58,4 +81,11 @@ Garak v0.14, Ollama, LLMap, Python, Excel
 ![Clean prompt and response in Excel](screenshots/10-excel-output.png)
 
 ## Related Tool
-[garak-report-to-excel](https://github.com/rakibnadir33/garak-report-to-excel)
+[garak-report-to-excel](https://github.com/rakibnadir33/garak-report-to-excel) — 
+A Python utility that parses raw Garak .jsonl vulnerability reports into structured 
+Excel spreadsheets for easier security analysis.
+
+## Author
+**Rakib Mahmud Nadir**  
+Junior Penetration Tester | AI/LLM Security Researcher  
+[Portfolio](https://rakibnadir.com) · [LinkedIn](https://linkedin.com/in/rakib-nadir)
