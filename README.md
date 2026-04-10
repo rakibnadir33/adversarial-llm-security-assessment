@@ -25,5 +25,37 @@ output manipulation, and guardrail bypass.
 ## Tools Used
 Garak v0.14, Ollama, LLMap, Python, Excel
 
+## Screenshots
+
+### Models Under Test
+![Models to test](screenshots/01-models-to-test.png)
+
+### Exposing Ollama to Local Network
+![Exposing Ollama to local network](screenshots/02-ollama-network-exposure.png)
+
+### Model Fingerprinting with LLMmap
+![Model identification with LLMmap](screenshots/03-llmmap-identification.png)
+
+### Successfully Identified the Model
+![Successfully identified the model](screenshots/04-llmmap-success.png)
+
+### Prompt Injection with Garak
+![Injection with Garak](screenshots/05-garak-injection.png)
+
+### High Risk Identified
+![High risk identified](screenshots/06-high-risk.png)
+
+### Successful Injection Types — Percentage Breakdown
+![Successful injection types percentage](screenshots/07-injection-percentage.png)
+
+### Raw Garak Output — Messy Prompts and Responses
+![Messy prompts and response](screenshots/08-messy-output.png)
+
+### garak-report-to-excel Tool
+![My tool for clean response](screenshots/09-garak-report-to-excel.png)
+
+### Clean Output in Excel Format
+![Clean prompt and response in Excel](screenshots/10-excel-output.png)
+
 ## Related Tool
 [garak-report-to-excel](https://github.com/rakibnadir33/garak-report-to-excel)
