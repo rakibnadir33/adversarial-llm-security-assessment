@@ -77,4 +77,4 @@ Excel spreadsheets for easier security analysis.
 ## Author
 **Rakib Mahmud Nadir**  
 Junior Penetration Tester | AI/LLM Security Researcher  
-[Portfolio](https://rakibnadir.com) · [LinkedIn](https://linkedin.com/in/rakib-nadir)
+[Portfolio](https://rakibnadir33.github.io/rakibnadir.github.io/) · [LinkedIn](https://linkedin.com/in/rakib-nadir)
