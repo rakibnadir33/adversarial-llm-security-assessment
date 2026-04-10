@@ -26,4 +26,4 @@ output manipulation, and guardrail bypass.
 Garak v0.14, Ollama, LLMap, Python, Excel
 
 ## Related Tool
-https://github.com/rakibnadir33/garak-report-to-excel
+[garak-report-to-excel](https://github.com/rakibnadir33/garak-report-to-excel)
